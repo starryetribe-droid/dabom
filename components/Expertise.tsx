@@ -4,23 +4,9 @@ import { Award, FileCheck } from 'lucide-react';
 
 const Expertise: React.FC = () => {
   return (
-    <div className="py-24 bg-transparent h-full flex flex-col justify-center" id="expertise">
+    <div className="pt-0 pb-24 bg-transparent h-full flex flex-col justify-center" id="expertise">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.3 }}
-          transition={{ duration: 0.8 }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-4xl md:text-5xl font-extrabold text-primary-dark mb-4 leading-[1.3]">
-            고려대학교 심리학부 교수진이 설계한<br />
-            <span className="text-primary">전문·과학적 멘탈케어</span>
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            심리전문가가 설계하고 검증하여 신뢰할 수 있습니다.
-          </p>
-        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
           {/* Professor 1 */}

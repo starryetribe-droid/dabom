@@ -28,7 +28,7 @@ const GlassIcon = ({ icon: Icon }: { icon: any }) => {
 
 const ClinicalResults: React.FC = () => {
     return (
-        <div className="py-24 bg-transparent relative overflow-hidden flex flex-col justify-center" id="clinical-results">
+        <div className="pt-24 pb-0 bg-transparent relative overflow-hidden flex flex-col justify-center" id="clinical-results">
             <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
 
                 {/* Header */}
@@ -44,8 +44,7 @@ const ClinicalResults: React.FC = () => {
                         <span className="text-[#E4621D]">임상 결과로 증명된</span> 정서 개선 효과
                     </h2>
                     <p className="text-[#5D4037] text-lg max-w-2xl mx-auto">
-                        14만 건의 대규모 데이터 학습과 고려대학교 심리학부 교수진의 설계로 완성된<br className="hidden md:block" />
-                        검증된 치매 예방 솔루션입니다.
+                        14만 건의 대규모 데이터 학습과 고려대학교 심리학부 교수진의 설계로 검증된 솔루션입니다.<br className="hidden md:block" />
                     </p>
                 </motion.div>
 
