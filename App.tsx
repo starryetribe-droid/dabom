@@ -2,20 +2,21 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import BrandStory from './components/BrandStory';
-import ServiceFeature from './components/ServiceFeature';
+
 import ClinicalResults from './components/ClinicalResults';
-import ProblemValue from './components/ProblemValue';
+
 import Expertise from './components/Expertise';
 import UserReviews from './components/UserReviews';
 import BrainFitness from './components/BrainFitness';
 import DiagnosisReport from './components/DiagnosisReport';
+import ServiceFeature from './components/ServiceFeature';
 
 
-import Features from './components/Features';
-import UserExperience from './components/UserExperience';
+
 import B2BSolutions from './components/B2BSolutions';
-import FinalCTA from './components/FinalCTA';
+
 import Contact from './components/Contact';
+import IntegrationGuide from './components/IntegrationGuide';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -55,7 +56,10 @@ const App: React.FC = () => {
           <BrandStory />
         </section>
 
-        {/* New Section: Service Feature */}
+
+
+
+        {/* Service Feature: Dabom Memory Finding */}
         <section id="service-feature" className="min-h-screen flex flex-col justify-center snap-start snap-always">
           <ServiceFeature />
         </section>
@@ -75,19 +79,14 @@ const App: React.FC = () => {
           <UserReviews />
         </section>
 
-        {/* New Section: Brain Fitness */}
-        <section id="brain-fitness" className="min-h-screen flex flex-col justify-center snap-start snap-always">
-          <BrainFitness />
-        </section>
-
         {/* New Section: Diagnosis Report */}
         <section id="diagnosis-report" className="min-h-screen flex flex-col justify-center snap-start snap-always">
           <DiagnosisReport />
         </section>
 
-        {/* No.1 Market Trend/Problem */}
-        <section id="problem-value" className="min-h-screen flex flex-col justify-center snap-start snap-always">
-          <ProblemValue />
+        {/* New Section: Brain Fitness */}
+        <section id="brain-fitness" className="min-h-screen flex flex-col justify-center snap-start snap-always">
+          <BrainFitness />
         </section>
 
 
@@ -96,30 +95,30 @@ const App: React.FC = () => {
 
 
 
-        {/* Reverted Section: Features (6 All-in-one Features) */}
-        <section id="features" className="min-h-screen flex flex-col justify-center snap-start snap-always">
-          <Features />
-        </section>
 
-        {/* No.5 UX & Gamification */}
-        <section id="ux" className="min-h-screen flex flex-col justify-center snap-start snap-always">
-          <UserExperience />
-        </section>
+
+
+
+
 
         {/* No.6 B2B Solutions */}
         <section id="b2b-solutions" className="min-h-screen flex flex-col justify-center snap-start snap-always">
           <B2BSolutions />
         </section>
 
-        {/* No.7 Final CTA */}
-        <section id="download" className="min-h-screen flex flex-col justify-center snap-start snap-always">
-          <FinalCTA />
+        {/* Integration Guide */}
+        <section id="integration-guide" className="min-h-screen flex flex-col justify-center snap-start snap-always">
+          <IntegrationGuide />
         </section>
+
+
 
         {/* Contact Form */}
         <section id="contact" className="min-h-screen flex flex-col justify-center snap-start snap-always">
           <Contact />
         </section>
+
+
       </main>
       <section className="scroll-snap-align-start snap-start snap-always">
         <Footer />

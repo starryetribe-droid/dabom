@@ -40,8 +40,7 @@ const ClinicalResults: React.FC = () => {
                     className="mb-16 text-center"
                 >
                     <h2 className="text-4xl md:text-5xl font-extrabold text-[#3E2723] leading-tight mb-6">
-                        다봄이와 기억 찾기<br />
-                        <span className="text-[#E4621D]">임상 결과로 증명된</span> 정서 개선 효과
+                        <span className="text-[#E4621D]">임상 결과로 증명된</span><br />정서 개선 효과
                     </h2>
                     <p className="text-[#5D4037] text-lg max-w-2xl mx-auto">
                         14만 건의 대규모 데이터 학습과 고려대학교 심리학부 교수진의 설계로 검증된 솔루션입니다.<br className="hidden md:block" />
@@ -128,7 +127,7 @@ const ClinicalResults: React.FC = () => {
                                 <div className="flex flex-col group/stat p-4 rounded-2xl hover:bg-white/40 transition-colors">
                                     <div className="flex items-center gap-2 mb-2">
                                         <MessageCircle size={20} className="text-[#8D6E63] group-hover/stat:text-[#E4621D] transition-colors" />
-                                        <p className="text-[#3E2723] text-xl font-bold">언어 기억</p>
+                                        <p className="text-[#3E2723] text-xl font-bold">인지 기능</p>
                                     </div>
                                     <div className="flex items-baseline gap-2 mb-2">
                                         <span className="text-5xl font-extrabold text-[#E4621D]">16%</span>
@@ -136,15 +135,8 @@ const ClinicalResults: React.FC = () => {
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="bg-white/40 rounded-2xl p-6 border border-white/50 mt-auto relative z-10 shadow-sm">
-                                <p className="text-[#5D4037] text-[16px] leading-relaxed text-center">
-                                    "대조군(기존 인지 훈련) 대비 <span className="font-bold text-[#3E2723]">모든 증상에서 유의미한 개선</span>을<br className="hidden md:block" /> 확인할 수 있었습니다."
-                                </p>
-                            </div>
-
                             <div className="mt-6 text-[13px] text-[#A1887F] text-right relative z-10">
-                                Total N=30, Pre-Post차이 기준 (p &lt; .05)
+                                Total N=30, Pre-Post차이 기준<br />모든 증상의 감소는 통제집단(기존인지훈련집단)에 비해 유의미하게 감소하였음
                             </div>
                         </motion.div>
                     </div>
